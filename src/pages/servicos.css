@@ -1,0 +1,44 @@
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family:'Poppins', sans-serif; 
+    flex-wrap: wrap;
+}
+
+.servicos-container{
+    margin: 20px auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servicos-imagem{
+    width: 500px;
+    height: 400px;
+    margin: 0 10px;
+}
+
+@media(max-width: 800px){
+    .main{
+        flex-wrap: nowrap;
+    }
+
+    .servicos-container{
+        margin: 20px auto;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .servicos-imagem{
+        width: 100%;
+        height: 100%;
+        padding-right: 20px;
+        
+    }
+  
+}

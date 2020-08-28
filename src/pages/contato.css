@@ -1,0 +1,42 @@
+.mainContato{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.mainContato a, h3{
+    color:black;
+}
+
+.form-container{
+    width: 100%;
+    max-width: 960px;
+    margin: 10px auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario{
+   width: 100%;
+   max-width: 500px;
+   margin: 10px auto 100px auto;
+} 
+
+.linkMaior{
+    font-size: 1.4rem;
+    color:rgb(32, 124, 32)!important;
+}
+
+.icone{
+    width: 30px;
+    height: 30px;
+}
+
+@media(max-width:800px){
+    .letraMenor{
+        font-size: 1rem;
+    }
+}
