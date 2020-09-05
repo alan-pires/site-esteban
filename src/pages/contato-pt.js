@@ -17,11 +17,12 @@ function contato() {
             <section className="mainContato container-fluid">
                 <div className="form-container">
                     <h1 className="mt-5 text-center">Contato</h1> 
-                    <a href="https://api.whatsapp.com/send?phone=5511990105998" target="_blank" className="linkMaior iconeVerde pt-2"><Whatsapp className="icone" style={{color:"green"}} />Quero Conversar Agora!</a>
-                    <a className="linkMaior" href="https://www.instagram.com/estebanchalapsico/" target="_blank"><Instagram className="icone"  style={{color:"red"}} />Instagram</a>
-                    <a className="linkMaior" href="https://www.facebook.com/estebanchalapsico" target="_blank"><FacebookSquare className="icone"  style={{color:"blue"}} />Facebook</a>
-                    <a  href="" className="linkMaior"><EmailOutline className="icone corDoIconeDoEsteban " />estebanchalapsico@gmail.com</a>
-                    <h3 className="pt-5 mb-3">Tem mais dúvidas? Envie uma mensagem!</h3> 
+                    <a href="https://api.whatsapp.com/send?phone=5511990105998" target="_blank" className="linkMaior iconeVerde pt-2"><Whatsapp height="30px" width="30px" style={{color:"green"}} />Quero Conversar Agora!</a>
+                    <a className="linkMaior" href="https://www.instagram.com/estebanchalapsico/" target="_blank"><Instagram height="30px" width="30px"  style={{color:"red"}} />Instagram</a>
+                    <a className="linkMaior" href="https://www.facebook.com/estebanchalapsico" target="_blank"><FacebookSquare height="30px" width="30px" style={{color:"blue"}} />Facebook</a>
+                    <a  href="" className="linkMaior"><EmailOutline className="corDoIconeDoEsteban " height="25px" width="25px" />estebanchalapsico@gmail.com</a>
+                    <h3 className="pt-5 mb-3">Possui mais dúvidas? Envie uma mensagem!</h3>  
+
 
                     <form className="formulario mt-3" action="https://formspree.io/maypzoew" method="POST">
                         <div className="form-group" >
