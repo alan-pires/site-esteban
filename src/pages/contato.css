@@ -27,7 +27,6 @@
 
 .linkMaior{
     font-size: 1.4rem;
-    color:rgb(32, 124, 32)!important;
 }
 
 .icone{
@@ -35,8 +34,23 @@
     height: 30px;
 }
 
+.corDoIconeDoEsteban{
+    color: rgb(46, 45, 45);
+}
+
+.iconeVerde{
+    color: rgb(19, 158, 19)!important;
+    font-weight: bold;
+}
+
 @media(max-width:800px){
     .letraMenor{
         font-size: 1rem;
     }
+
+    
+.linkMaior{
+    font-size: 1rem;
+}
+
 }

@@ -17,12 +17,12 @@ function contato() {
             <section className="mainContato container-fluid">
                 <div className="form-container">
                     
-                    <h1 className="mt-3 text-center">Contacto</h1> 
-                    <a href="https://api.whatsapp.com/send?phone=5511990105998" target="_blank" className="linkMaior pt-2"><Whatsapp className="icone" style={{color:"green"}} /> (+55) 1199010-5998</a>
-                    <a href="https://www.instagram.com/estebanchalapsico/" target="_blank"><Instagram className="icone"  style={{color:"red"}} />Instagram</a>
-                    <a href="https://www.facebook.com/estebanchalapsico" target="_blank"><FacebookSquare className="icone"  style={{color:"blue"}} />Facebook</a>
-                    <a href="" className="letraMenor"><EmailOutline className="icone " />estebanchalapsico@gmail.com</a>
-                    <h3 className="mt-4 mb-3">¿Tienes más dudas? Envia un mensaje.</h3> 
+                    <h1 className="mt-3 pb-2 text-center">Contacto</h1> 
+                    <a href="https://api.whatsapp.com/send?phone=5511990105998" target="_blank" className="linkMaior iconeVerde pt-2"><Whatsapp className="icone" style={{color:"green"}} /> ¡Quiero Conversar Ahora!</a>
+                    <a className="linkMaior" href="https://www.instagram.com/estebanchalapsico/" target="_blank"><Instagram className="icone"  style={{color:"red"}} />Instagram</a>
+                    <a className="linkMaior" href="https://www.facebook.com/estebanchalapsico" target="_blank"><FacebookSquare className="icone"  style={{color:"blue"}} />Facebook</a>
+                    <a  href="" className="linkMaior"><EmailOutline className="icone corDoIconeDoEsteban " />estebanchalapsico@gmail.com</a>
+                    <h3 className="pt-5 mb-3">¿Tienes más dudas? Envia un mensaje.</h3>  
 
                     <form className="formulario mt-3" action="https://formspree.io/maypzoew" method="POST">
                         <div className="form-group" >

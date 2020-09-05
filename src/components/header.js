@@ -20,7 +20,7 @@ const Header = () => (
             <li><Link to='/servicos'>Servicios</Link></li>
             <li><Link to='/areaAtuacao'>Especialidades</Link></li>
             <li><Link to='/contato'>Contacto</Link></li>
-            <li><Link to='/BlogPage'>Blog</Link></li>
+            <li><Link><a href="https://api.whatsapp.com/send?phone=5511990105998" target="_blank">Quiero Conversar</a></Link></li>
             <li><Link to='/'><img src={Colombia} style={{width:33, height:33}}/></Link></li>
             <li><Link to='/index-pt'><img src={Brasil} style={{width:35, height:35}}/></Link></li>
             </ul> 
