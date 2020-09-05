@@ -17,7 +17,7 @@ function contato() {
             <section className="mainContato container-fluid">
                 <div className="form-container">
                     <h1 className="mt-5 text-center">Contato</h1> 
-                    <a href="https://api.whatsapp.com/send?phone=5511990105998" target="_blank" className="linkMaior iconeVerde pt-2"><Whatsapp className="icone" style={{color:"green"}} /> Quero Conversar Agora!</a>
+                    <a href="https://api.whatsapp.com/send?phone=5511990105998" target="_blank" className="linkMaior iconeVerde pt-2"><Whatsapp className="icone" style={{color:"green"}} />Quero Conversar Agora!</a>
                     <a className="linkMaior" href="https://www.instagram.com/estebanchalapsico/" target="_blank"><Instagram className="icone"  style={{color:"red"}} />Instagram</a>
                     <a className="linkMaior" href="https://www.facebook.com/estebanchalapsico" target="_blank"><FacebookSquare className="icone"  style={{color:"blue"}} />Facebook</a>
                     <a  href="" className="linkMaior"><EmailOutline className="icone corDoIconeDoEsteban " />estebanchalapsico@gmail.com</a>
