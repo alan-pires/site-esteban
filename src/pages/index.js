@@ -8,6 +8,7 @@ import Terapia from '../components/images/image'
 import Esteban from '../images/esteban3.png'
 import Footer from '../components/footer'
 import Head from '../components/head'
+import Whats from '../images/whats.png'
 
 const IndexPage = () => (
   <>
@@ -17,6 +18,9 @@ const IndexPage = () => (
 
       <div className="imagem-terapia">
         <Terapia imagem="terapia" /> 
+        <div className="whatsFixed">
+        <a href="https://api.whatsapp.com/send?phone=5511990105998" target="_blank"><img src={Whats} /></a>
+        </div>
       </div>
 
       <div className="sobreEsteban">

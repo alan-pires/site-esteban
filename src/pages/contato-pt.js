@@ -22,7 +22,7 @@ function contato() {
                     <a className="linkMaior" href="https://www.facebook.com/estebanchalapsico" target="_blank"><FacebookSquare height="30px" width="30px" style={{color:"blue"}} />Facebook</a>
                     <a  href="" className="linkMaior"><EmailOutline className="corDoIconeDoEsteban " height="25px" width="25px" />estebanchalapsico@gmail.com</a>
                     <h3 className="pt-5 mb-3">Possui mais dúvidas? Envie uma mensagem!</h3>  
-
+                
 
                     <form className="formulario mt-3" action="https://formspree.io/maypzoew" method="POST">
                         <div className="form-group" >
