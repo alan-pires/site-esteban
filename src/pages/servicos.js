@@ -5,6 +5,7 @@ import Img from '../components/images/image'
 import '../global.css'
 import './servicos.css'
 import Head from '../components/head'
+import Whats from '../images/whats.png'
 
 
 function servicos() {
@@ -13,6 +14,9 @@ function servicos() {
           <Head title="Servícios psicologia"/>
         <Header />
         <section className="main">
+        <div className="whatsFixed">
+        <a href="https://api.whatsapp.com/send?phone=5511990105998" target="_blank"><img src={Whats} /></a>
+        </div>
             <h1 className="text-center pt-2">Servicios</h1>
             <div className="servicos-container mt-2">
                 <div className="servicos-imagem">

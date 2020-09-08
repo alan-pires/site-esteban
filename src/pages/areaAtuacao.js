@@ -5,6 +5,7 @@ import Img from '../components/images/image'
 import '../global.css'
 import './areaAtuacao.css'
 import Head from '../components/head'
+import Whats from '../images/whats.png'
 
 
 const textos = {
@@ -40,6 +41,9 @@ function areaAtuacao() {
         <Head title="Especialidades"/>
             <Header />
             <section className="main">
+            <div className="whatsFixed">
+        <a href="https://api.whatsapp.com/send?phone=5511990105998" target="_blank"><img src={Whats} /></a>
+        </div>
                 <h1 className="text-center pt-3">Especialidades</h1>
                 
                  <div className="areasAtuacao-container mt-3"> 
